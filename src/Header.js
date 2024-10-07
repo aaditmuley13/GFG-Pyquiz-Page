@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-      <img src={logo} alt="Placeholder Image" />
+      <img src={logo}  />
       </div>
       <nav className="nav">
-        <a href="#">Products</a>
-        <a href="#">Resources</a>
-        <a href="#">Developers</a>
+        <a>Products</a>
+        <a>Resources</a>
+        <a>Developers</a>
       </nav>
       <button className="open-app-btn">Open App</button>
     </header>
